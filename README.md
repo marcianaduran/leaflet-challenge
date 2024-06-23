@@ -8,10 +8,10 @@ Your first task is to visualize an earthquake dataset.
 1. The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the USGS GeoJSON Feed page and choose a dataset to visualize.
 2. Use the URL of this JSON to pull in the data for the visualization.
 3. Using Leaflet, create a map that plots all the earthquakes from your dataset based on their longitude and latitude.
-* Include popups that provide additional information about the earthquake when its associated marker is clicked.
-* Create a legend that will provide context for your map data.
+    * Include popups that provide additional information about the earthquake when its associated marker is clicked.
+    * Create a legend that will provide context for your map data.
 4. Plot a second dataset on your map to illustrate the relationship between tectonic plates and seismic activity. You will need to pull in this dataset and visualize it alongside your original data. Data on tectonic plates can be found at https://github.com/fraxen/tectonicplates
-* Plot the tectonic plates dataset on the map in addition to the earthquakes.
-* Add other base maps to choose from.
-* Put each dataset into separate overlays that can be turned on and off independently.
-* Add layer controls to your map.
+    * Plot the tectonic plates dataset on the map in addition to the earthquakes.
+    * Add other base maps to choose from.
+    * Put each dataset into separate overlays that can be turned on and off independently.
+    * Add layer controls to your map.
